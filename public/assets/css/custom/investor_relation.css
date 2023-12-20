@@ -1,0 +1,39 @@
+.relation_section_nav a {
+    width: 50%;
+    text-align: center;
+}
+.investors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    height : 200px;
+}
+.investors_img {
+    object-fit: scale-down;
+    padding: 10px;
+    /* width: 200px !important; */
+}
+.investors_area .owl-controls .owl-prev, .investors_area .owl-controls .owl-next {
+    color : black;
+    background-color: white;
+}
+.investors_area .owl-prev, .investors_area .owl-next {
+    position: absolute;
+    top: 75px;
+}
+.owl-carousel .owl-prev{
+    left: -28px;
+}
+.owl-carousel .owl-next{
+    right: -28px;
+}
+.coming_soon {
+    object-fit: scale-down;
+    padding: 10px;
+    width: 200px !important; 
+}
+.investors_title {
+    border-bottom: 1px solid;
+    border-color: #d1d1d1;
+}

@@ -1,0 +1,10 @@
+.relation_section_nav a {
+    width: 33.33%;
+    text-align: center;
+}
+
+.coming_soon {
+    object-fit: scale-down;
+    padding: 10px;
+    width: 200px !important;
+}

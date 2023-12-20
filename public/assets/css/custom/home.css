@@ -1,0 +1,313 @@
+.singleService_4 {
+    min-height: 267px !important;
+}
+
+.rbi_logo {
+    width: 291px;
+}
+
+.slogan_logo {
+    width: 257px;
+    position: relative;
+    top: -29px;
+}
+
+.emiCalculator .sec_title {
+    font-size: 35px;
+    line-height: 52px;
+    color: #383c5e;
+    font-weight: 900;
+}
+
+.emiCalculator .sec_desc {
+    line-height: 35px;
+    color: #606378;
+    margin: 0 0 51px;
+}
+
+.emiCalculator .emi_wrapper {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.emiCalculator .emi_wrapper .nav-tabs {
+    font-size: 15px;
+    padding: 0px;
+    list-style: none;
+    background: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    position: relative;
+    margin: 0px auto;
+    width: 314px
+}
+
+.emiCalculator .emi_wrapper .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-color: none;
+}
+
+.emiCalculator .emi_wrapper .nav-tabs .nav-item a {
+    text-decoration: none;
+    color: #777;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 10px 17px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition-duration: 0.6s;
+    border: none !important;
+    border-top-left-radius: none !important;
+    border-top-right-radius: none !important;
+}
+
+.emiCalculator .emi_wrapper .nav-tabs .nav-item a.active {
+    color: #fff;
+    background-color: transparent;
+    border-color: none;
+}
+
+.emiCalculator .emi_wrapper .nav-tabs .emi_selector {
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    border-radius: 50px;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background: #05abe0;
+    background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+    background: -webkit-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+    background: linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#05abe0', endColorstr='#8200f4', GradientType=1);
+}
+
+.emiCalculator label.control-label {
+    width: 100%;
+    color: #222;
+}
+
+.emiCalculator input[type="range"]:focus,
+.emiCalculator input[type="range"]:focus-visible {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.emiCalculator label.control-label span {
+    font-size: 14px;
+    border: 1px solid #a6a7a7;
+    border-radius: 20px;
+    padding: 0px 15px;
+}
+
+.emiCalculator input[type="text"].form-control {
+    border: none;
+    border-bottom: 1px solid #a6a7a7;
+}
+
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid #999;
+}
+
+::-moz-range-track {
+    height: 40px;
+    background: #ddd;
+}
+
+::-moz-range-thumb {
+    background: #fff;
+    height: 40px;
+    width: 20px;
+    border: 3px solid #999;
+    border-radius: 0 !important;
+    box-sizing: border-box;
+}
+
+::-ms-thumb {
+    background: #fff;
+    border: 2px solid #999;
+    height: 40px;
+    width: 20px;
+    box-sizing: border-box;
+}
+
+::-ms-ticks-after {
+    display: none;
+}
+
+::-ms-ticks-before {
+    display: none;
+}
+
+::-ms-track {
+    background: #ddd;
+    color: transparent;
+    height: 40px;
+    border: none;
+}
+
+::-ms-tooltip {
+    display: none;
+}
+
+.tab-content .tab-pane .flate_int {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    margin: 0px 0px 10px 14px;
+    width: 90%;
+    font-size: 16px;
+}
+
+.inner_chart {
+    position: absolute;
+    font-size: 15px;
+    top: 98px;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+.inner_chart span {
+    font-size: 15px;
+    font-weight: 800;
+    color: #f26e21;
+}
+
+.tab-content .canvas {
+    width: 245px;
+    height: 255px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.dkp-input-area {
+    position: absolute;
+    width: 136px;
+    right: 14px;
+    border: 1px solid #9f8f8f;
+    border-radius: 22px;
+    color: black;
+}
+
+.dkp-input-span {
+    padding: 7px 0px 7px 11px;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.dkp-input-input1 {
+    text-align: center;
+    font-size: 13px;
+    width: 111px;
+    border: unset;
+    outline: unset;
+    padding: 0px 11px 0px 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    vertical-align: top;
+}
+
+.dkp-input-area2 {
+    position: absolute;
+    width: 81px;
+    right: 14px;
+    border: 1px solid #9f8f8f;
+    border-radius: 25px;
+    color: black;
+}
+
+.dkp-input-input2 {
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+    border: unset;
+    outline: unset;
+    padding: 0px 11px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+.dkp-input-span3 {
+    padding: 7px 11px 7px 0px;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.dkp-input-input3 {
+    text-align: center;
+    font-size: 13px;
+    width: 51px;
+    border: unset;
+    outline: unset;
+    padding: 0px 0 0 11px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+.dkp-emi-text {
+    border: unset;
+    border-bottom: 1px solid #9f8f8f;
+}
+
+#emi_calc .switch input[type=checkbox] {
+    display: none;
+}
+
+#emi_calc .switch label {
+    cursor: pointer;
+    width: 120px;
+    height: 28px;
+    background: rgb(10, 85, 16);
+    display: block;
+    border-radius: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#emi_calc .switch label:before {
+    content: attr(data-off);
+    position: absolute;
+    right: 0;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 0px 7px;
+    color: white;
+}
+
+#emi_calc .switch input:checked+label:before {
+    content: attr(data-on);
+    position: absolute;
+    left: 0;
+    font-size: 15px;
+    font-weight: 900;
+    padding-left: 7px;
+    color: white;
+}
+
+#emi_calc .switch label:after {
+    top: 1.9px;
+    content: "";
+    position: absolute;
+    left: 1px;
+    width: 25.2px;
+    height: 25.2px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+#emi_calc .switch input:checked+label {
+    background: #007bff;
+}
+
+#emi_calc .switch input:checked+label:after {
+    transform: translateX(28px);
+    left: 65px;
+}

@@ -1,0 +1,45 @@
+.lspList {
+    margin-bottom: 30px;
+}
+.lspList .item:not(:last-child) {
+    margin-bottom: 12px;
+}
+.lspList .item {
+    border: 1px solid #D8DDE6;
+    border-radius: 2px;
+    padding: 14px 35px 14px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+}
+.lspList .item.active::after {
+    border-color: #0070D2 transparent transparent #0070D2;
+    margin: 0 15px 0 0;
+}
+
+.lspList .item::after {
+    content: "";
+    position: absolute;
+    top: 24px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent #0070D2 #0070D2 transparent;
+    transform: rotate(45deg) translate(0, -50%);
+    margin: -5px 15px 0 0;
+}
+.lspList .item .listTitle {
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+}
+.lspList .item .listDiscription {
+    display: none;
+    font-size : 15px;
+    color: #363333;
+}

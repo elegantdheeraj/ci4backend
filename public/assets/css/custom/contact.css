@@ -1,0 +1,88 @@
+.form_error {
+    border-bottom-color: red !important;
+}
+#remainingC_area {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+}
+#otp_modal {
+    grid-template-columns : auto minmax(0, 1fr) auto;
+    display: grid;
+    position: fixed;
+    z-index: 1060;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    grid-template-areas:
+        "top-start top top-end"
+        "center-start center center-end"
+        "bottom-start bottom-center bottom-end";
+    grid-template-rows: minmax(min-content, auto) minmax(min-content, auto) minmax(min-content, auto);
+    height: 100%;
+    padding: 0.625em;
+    overflow-x: hidden;
+    transition: background-color .1s;
+    -webkit-overflow-scrolling: touch;
+    background: rgba(0,0,0,.4);
+}
+.otp_modal_pop {
+    /* display: none; */
+    position: relative;
+    box-sizing: border-box;
+    grid-template-columns: minmax(0, 100%);
+    width: 32em;
+    max-width: 100%;
+    padding: 0 0 1.25em;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #545454;
+    font-family: inherit;
+    font-size: 1rem;
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+.otp_model_button {
+    border: 0;
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #7066e0;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0.3125em;
+    padding: 0.625em 1.1em;
+    transition: box-shadow .1s;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0);
+    font-weight: 500;
+}
+.otp_input {
+    font-size: 19px;
+    color: #929292;
+    line-height: 55px;
+    width: 150px;
+    background: #f2f2fa;
+    height: 52px;
+    border: 1px solid #d9d9ef;
+    outline: none;
+    border-radius: 3px;
+    margin-bottom: 23px;
+    padding: 0 20px;
+}
+.model_close_cbtn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 21px;
+}
+
+#contactForm .verify_mobile_area {
+    position: absolute;
+    top: 9px;
+    right: 27px;
+}
